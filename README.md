@@ -18,13 +18,13 @@ Now this script is almost standalone, you do not require any frameworks for it t
 
 Navigate to the 2 client files.
 
-For "cl_m-gz.lua" (greenzones) comment out line 59 & 75
-For "cl_m-rz.lua" (redzones) comment out line 43 & 53
+For "cl_m-gz.lua" (greenzones) comment out line 59 & 75.
+For "cl_m-rz.lua" (redzones) comment out line 43 & 53.
 
-If you wish to use mythic notifications but not text do the following: (note: the "You entered a redzone" text will stay on the players screen as long as the player is inside the redzone. This is intended")
+If you wish to use mythic notifications but not text do the following: (note: the "You entered a redzone" text will stay on the players screen as long as the player is inside the redzone. This is intended)
 
-For "cl_m-gz.lua" (greenzones) comment out line 35 & 44
-For "cl_m-rz.lua" (redzones) comment out line 21 & 29
+For "cl_m-gz.lua" (greenzones) comment out line 35 & 44.
+For "cl_m-rz.lua" (redzones) comment out line 21 & 29.
 
 By default the greenzones have no sphere around them ingame, only on the (mini)map, the redzones by default have both "ingame" and on the (mini)map a sphere. If you wish to change either do the following:
 
