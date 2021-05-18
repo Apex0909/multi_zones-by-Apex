@@ -38,6 +38,8 @@ I will try to provide "support" to the best of my abilities, however please unde
 
 Also make sure to read the README file.
 
+Preview: [https://youtu.be/KVTWHtGhRuY]
+
 If you wish to use mythic_notify please download it here: [https://github.com/JayMontana36/mythic_notify]
 
 Download the multi_zones resource here: 

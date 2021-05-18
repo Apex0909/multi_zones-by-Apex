@@ -9,8 +9,8 @@ local isInCityZone = false -- turns isInCityZone to false
 
 Greenzones = { -- Add your greenzones here. Do not forget the comma!
     ["Mission Row"] = { Coords = vector3(440.35321044922,-983.61755371094,30.689605712891), Radius = 50.0 },
-    ["Kruispunt"] = { Coords = vector3(405.36291503906,-850.25537109375,29.349529266357), Radius = 50.0 },
-    ["snelweg"] = { Coords = vector3(1777.2489013672,1835.8293457031,79.736801147461), Radius = 50.0 }
+    ["Legion"] = { Coords = vector3(170.51364135742,-1021.3690795898,28.816247940063), Radius = 50.0 }
+--    ["snelweg"] = { Coords = vector3(1777.2489013672,1835.8293457031,79.736801147461), Radius = 50.0 }
   }
 
 
