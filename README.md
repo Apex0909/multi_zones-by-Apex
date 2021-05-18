@@ -41,7 +41,7 @@ Also make sure to read the README file.
 If you wish to use mythic_notify please download it here: [https://github.com/JayMontana36/mythic_notify]
 
 Download the multi_zones resource here: 
-[https://github.com/Apex0909/multi_zones]
+[https://github.com/Apex0909/multi_zones-by-Apex]
 
 Thank you!
 Apex
