@@ -46,3 +46,6 @@ Download the multi_zones resource here:
 Thank you!
 Apex
 (Please let me know if I missed anything!)
+
+Discord: DuhItzRik#0909
+Discord Server: [https://discord.gg/nemQUPnC3U]
