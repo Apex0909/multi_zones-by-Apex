@@ -12,5 +12,9 @@ version '1.0.0'
 
 client_script {
 'cl_m-rz.lua',
-'cl_m-gz.lua'
+'cl_m-gz.lua',
+}
+
+shared_script {
+  'config.lua'
 }
