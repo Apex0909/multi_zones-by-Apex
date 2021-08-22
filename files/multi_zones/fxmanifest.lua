@@ -4,7 +4,7 @@ game 'gta5'
 name 'multi_zones'
 
 author 'Apex'
-description 'Made by Apex, Optimized by Yoakz!'
+description 'Apex made this!'
 version '1.0.0'
 
 

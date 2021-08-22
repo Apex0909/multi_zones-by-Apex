@@ -45,7 +45,6 @@ end)
 function EnteredGreenzone()
     exports['mythic_notify']:DoHudText('success', 'You just entered the greenzone')
     PlaySound(-1, "CHARACTER_CHANGE_CHARACTER_01_MASTER", 0, 0, 0, 0)
-
     isLeaveMessagePresent = true
     Citizen.SetTimeout(leaveMessage, function() -- Wait the timer to be done
         isLeaveMessagePresent = false
@@ -74,6 +73,7 @@ function DisableActions()
     DisableControlAction(0, 263, true) -- Disable melee attack 1
     DisableControlAction(0, 140, true) -- Disable light melee attack (r)
     DisableControlAction(0, 142, true) -- Disable left mouse button (pistol whack etc)
+    SetPlayerInvincible(PlayerId(), true)
 
     for k, v in pairs(GetActivePlayers()) do
         local ped = GetPlayerPed(v)
@@ -95,6 +95,14 @@ Citizen.CreateThread(function() -- Adds the blips
     end
   end
 end)
+
+--Citizen.CreateThread(function()
+--    while isInCityZone == true do
+--        SetEntityInvincible(GetPlayerPed(-1), true)
+--        SetPlayerInvincible(PlayerId(), true)
+--       SetEntityCanBeDamaged(PlayerPedId(), false)
+--    end
+--end)
 
 function DrawTextOnScreen(text, x, y, r, g, b, a, s, font)
     SetTextColour(r, g, b, a)   -- Color
