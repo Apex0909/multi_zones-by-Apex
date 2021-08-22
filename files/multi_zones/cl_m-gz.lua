@@ -73,7 +73,7 @@ function DisableActions()
     DisableControlAction(0, 263, true) -- Disable melee attack 1
     DisableControlAction(0, 140, true) -- Disable light melee attack (r)
     DisableControlAction(0, 142, true) -- Disable left mouse button (pistol whack etc)
-    SetPlayerInvincible(PlayerId(), true)
+    SetPlayerInvincible(PlayerId(), true) -- Disable all kinds of damage to the player
 
     for k, v in pairs(GetActivePlayers()) do
         local ped = GetPlayerPed(v)
